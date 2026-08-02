@@ -1,0 +1,17 @@
+RECONSTRUCTED EVIDENCE — NOT ORIGINAL SCREENSHOT
+
+Driver Name: display.inf
+Driver Provider: Microsoft
+Driver Section: MSBDA
+Driver Version: 10.0.26100.1
+Matching Device ID: PCI\CC_0300
+Status: 0x0
+
+Event ID 410 example:
+Device ... was started.
+Driver Name: display.inf
+Service: BasicDisplay
+
+Preserved meaning:
+The GPU could successfully enumerate and start using Microsoft Basic Display
+Adapter in at least one state.

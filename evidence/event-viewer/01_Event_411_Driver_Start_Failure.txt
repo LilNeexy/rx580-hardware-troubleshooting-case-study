@@ -1,0 +1,24 @@
+RECONSTRUCTED EVIDENCE — NOT ORIGINAL SCREENSHOT
+
+Windows Event Viewer — Kernel-PnP Configuration
+
+Log Name: Microsoft-Windows-Kernel-PnP/Configuration
+Source: Microsoft-Windows-Kernel-PnP
+Event ID: 411
+Level: Error
+
+Device:
+PCI\VEN_1002&DEV_67DF&SUBSYS_05211043&REV_E7\4&1da95f35&0&0019
+
+Device ... had a problem starting.
+
+Driver Name: oem4.inf
+Service: amdwddmg
+Problem: 0x0
+Problem Status: 0xC00000E5
+
+Preserved meaning:
+The RX 580 was enumerated as a PCIe device, Windows selected the AMD display
+driver, and the AMD service failed while starting the device. This does not
+prove whether the root cause was software, GPU hardware, PCIe, PSU, firmware,
+or a power-state transition.

@@ -1,0 +1,20 @@
+RECONSTRUCTED EVIDENCE — SAVED TROUBLESHOOTING RECORD
+
+State A — RX 580 completely missing
+- Device Manager could not detect it.
+- Task Manager could not detect it.
+- DDU could not detect it during one phase.
+- AMDVBFlash could not detect it.
+- BIOS did not visibly list it.
+- Vega 8 remained detected.
+- RX 580 fans still spun.
+
+State B — RX 580 greyed out
+- Observed after a wake / no-display event.
+
+State C — Microsoft Basic Display Adapter
+- Observed after DDU.
+
+State D — RX 580 restored
+- After physical cleaning/reseating, the card reappeared.
+- It could again run games and reach full GPU utilization.

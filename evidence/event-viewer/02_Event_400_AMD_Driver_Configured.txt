@@ -1,0 +1,16 @@
+RECONSTRUCTED EVIDENCE — NOT ORIGINAL SCREENSHOT
+
+Driver Name: oem4.inf
+Driver Package ID: u0387206.inf_amd64_081d192bd0a4e0cb
+Driver Date: 11/30/2022
+Driver Version: 31.0.12029.10015
+Driver Provider: Advanced Micro Devices, Inc.
+Driver Section: ati2mtag_Polaris10
+Driver Rank: 0xCF2000
+Matching Device ID: PCI\VEN_1002&DEV_67DF&REV_E7
+Device Updated: true
+Status: 0x0
+
+Preserved meaning:
+Windows successfully matched an AMD Polaris10 driver package to the card.
+Configuration success did not guarantee device-start success.

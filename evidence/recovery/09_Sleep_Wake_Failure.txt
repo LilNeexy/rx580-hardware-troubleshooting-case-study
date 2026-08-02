@@ -1,0 +1,16 @@
+RECONSTRUCTED EVIDENCE — SAVED TROUBLESHOOTING RECORD
+
+Repeatable pattern:
+1. PC/display enters sleep.
+2. PC wakes / appears powered.
+3. Monitor reports No DisplayPort Signal.
+4. RX 580 may fail to initialize or disappear.
+5. Forced shutdown / full power cycle restores it.
+
+Workaround used:
+- No PC sleep
+- No monitor/display sleep
+- Full shutdown instead
+
+Supported conclusion:
+Sleep/power-state transitions were a strong trigger.

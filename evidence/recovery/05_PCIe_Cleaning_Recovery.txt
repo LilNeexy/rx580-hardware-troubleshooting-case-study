@@ -1,0 +1,17 @@
+RECONSTRUCTED EVIDENCE — SAVED TROUBLESHOOTING RECORD
+
+Physical recovery event:
+1. RX 580 was removed/disassembled.
+2. PCIe edge contacts were lightly cleaned.
+3. An eraser was used on the PCIe contacts.
+4. The GPU was reinstalled/reseated.
+
+Observed result:
+- RX 580 appeared again.
+- GPU could again run under load.
+
+Supported conclusion:
+Physical PCIe contact quality/reseating correlated with recovery at least once.
+
+Not proven:
+Dirty contacts were the only root cause.

@@ -1,0 +1,13 @@
+RECONSTRUCTED EVIDENCE — SAVED TROUBLESHOOTING RECORD
+
+DDU history:
+- DDU clean driver reinstall had recovered an earlier problematic state.
+- DDU later showed RX 580 / Polaris10 and Vega 8 / PicassoAM4.
+- After DDU, Windows sometimes used Microsoft Basic Display Adapter.
+- RX 580 could later return.
+
+Typical procedure:
+Safe Mode -> AMD GPU -> Clean and Restart -> reinstall AMD driver
+
+Supported conclusion:
+Driver state was relevant to at least some recovery events.

@@ -1,0 +1,15 @@
+RECONSTRUCTED EVIDENCE — VALUES PRESERVED FROM SAVED SCREENSHOT NOTES
+
+Approximate observed RX 580 load values:
+- GPU utilization: 100%
+- GPU power: ~142 W
+- GPU clock: ~1360 MHz
+- VRAM clock: ~2000 MHz
+- GPU temperature: ~67 °C
+- Fan: ~1217 RPM
+- VRAM usage: ~2.1 GB
+
+Additional observation:
+Electrical buzzing increased with GPU load/FPS and stopped when FC 24 was closed.
+
+The exact source of the buzzing (GPU vs PSU) was not physically confirmed.
