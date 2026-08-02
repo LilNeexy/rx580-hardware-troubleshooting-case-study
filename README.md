@@ -34,6 +34,7 @@ The RX 580 was recovered multiple times and returned to normal load operation. A
 ## Troubleshooting Work
 
 ### 1. Driver isolation
+<img width="360" height="217" alt="game-keeps-crashing-v0-gvahd88e9dff1" src="https://github.com/user-attachments/assets/9e8805c1-d617-4f34-9e52-fc4bf1b599f5" />
 
 I used Display Driver Uninstaller (DDU) in Safe Mode to remove AMD graphics drivers and establish a clean driver baseline.
 
@@ -47,6 +48,7 @@ During troubleshooting, the RX 580 appeared in several different states:
 The Ryzen 3 3200G integrated Vega 8 graphics remained available during some RX 580 failure states, which helped keep the system bootable for diagnosis.
 
 ### 2. Event Viewer analysis
+<img width="250" height="250" alt="Event_Viewer" src="https://github.com/user-attachments/assets/41cc40b8-d156-4f9c-b429-ea11020d2d66" />
 
 The RX 580 was recorded as:
 
@@ -67,6 +69,7 @@ The AMD Polaris driver package could be configured successfully, but the device 
 Microsoft Basic Display Adapter also successfully started the device in at least one state. This helped separate PCIe device enumeration from full AMD-driver initialization.
 
 ### 3. Physical PCIe inspection and recovery
+<img width="500" height="500" alt="41lEA3EIsgL" src="https://github.com/user-attachments/assets/8f37d9bb-4325-425b-b071-62dca1d30334" />
 
 I removed the RX 580, inspected the PCIe interface, lightly cleaned the PCIe edge contacts, and reseated the card.
 
@@ -79,6 +82,7 @@ After reinstalling it:
 This was one of the strongest hardware-side observations in the troubleshooting process because physical contact/reseating directly correlated with recovery.
 
 ### 4. Sleep and power-state testing
+<img width="313" height="268" alt="sysstate" src="https://github.com/user-attachments/assets/7f683cf3-62e0-4836-8738-2e86c26d0000" />
 
 Sleep/wake became one of the most repeatable triggers.
 
@@ -101,6 +105,7 @@ During testing I disabled PC sleep and display sleep and used full shutdown inst
 PCI Express Link State Power Management and BIOS power-related settings were also investigated.
 
 ### 5. Refresh-rate testing
+<img width="810" height="402" alt="windows-11-advanced-display" src="https://github.com/user-attachments/assets/9ebdf8fa-d1fa-4f8f-9f92-857b7e5eb022" />
 
 At one stage, 60 Hz provided better stability.
 
@@ -109,6 +114,7 @@ Later, the system operated at 120 Hz for several months with a known-good older 
 This showed that refresh rate affected the stability margin but was not enough to explain the problem on its own.
 
 ### 6. GPU load verification
+<img width="1280" height="720" alt="WCCFamdadrenalin20221" src="https://github.com/user-attachments/assets/b64cd14d-9f96-4274-892e-958930fea15d" />
 
 After recovery, the GPU was able to reach full utilization.
 
@@ -127,6 +133,7 @@ VRAM usage:      ~2.1 GB
 The card also produced load-dependent electrical buzzing. The noise increased with GPU load/FPS and stopped after leaving the game. I treated this as an observation rather than proof of a failing GPU or PSU.
 
 ### 7. BSOD investigation
+<img width="679" height="452" alt="images" src="https://github.com/user-attachments/assets/6307a15a-01ab-4361-bd55-0b6fcc90f85b" />
 
 The system produced:
 
@@ -142,6 +149,7 @@ I then completed:
 This reduced the likelihood of ordinary system RAM corruption or basic Windows file corruption.
 
 ### 8. Driver/update stability testing
+<img width="250" height="250" alt="images" src="https://github.com/user-attachments/assets/2d51d0cb-9fdc-4153-80d4-1a9de2e7a220" />
 
 A known-good older AMD driver configuration was stable for several months at 120 Hz while unwanted graphics-driver update interference was blocked.
 
